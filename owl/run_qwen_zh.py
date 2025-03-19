@@ -131,7 +131,9 @@ def construct_society(question: str) -> OwlRolePlaying:
 def main():
     r"""Main function to run the OWL system with an example question."""
     # Example research question
-    question = "浏览亚马逊并找出一款对程序员有吸引力的产品。请提供产品名称和价格"
+    # question = "浏览亚马逊并找出一款对程序员有吸引力的产品。请提供产品名称和价格"
+    question = "浏览联想的官网，找到一款性能不错的电脑，列出它的配置和报价，并给出商品链接"
+
 
     # Construct and run the society
     society = construct_society(question)

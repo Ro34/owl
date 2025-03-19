@@ -21,7 +21,7 @@ keywords = [
     "learning-systems"
 ]
 dependencies = [
-    "camel-ai[all]==0.2.24",
+    "camel-ai[all]==0.2.23",
     "chunkr-ai>=0.0.41",
     "docx2markdown>=0.1.1",
     "gradio>=3.50.2",
@@ -57,3 +57,7 @@ follow_imports = "skip"
 [[tool.mypy.overrides]]
 module = "utils"
 ignore_missing_imports = true
+
+[[tool.uv.index]]
+url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple"
+default = true
